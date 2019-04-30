@@ -130,7 +130,7 @@ export default class UserCrud extends Component {
                     <td>{user.name}</td>
                     <td>{user.email}</td>
                     <td>
-                        <button className="btn btn-warning"
+                        <button className="btn btn-success"
                             onClick={() => this.load(user)}>
                             <i className="fa fa-pencil"></i>
                         </button>
